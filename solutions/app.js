@@ -1,4 +1,10 @@
-import { cookieHandler } from "./cookieHandler";
-import setCookie from "./setCookie";
+import setCookie from './app1.js'
 
-export { cookieHandler, setCookie };
+import {
+    cookieHandler
+} from './app2.js'
+
+export {
+    setCookie,
+    cookieHandler
+}
